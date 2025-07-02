@@ -6,7 +6,6 @@ import * as bcrypt from 'bcrypt';
 
 @Injectable()
 export class UsersService {
-
     constructor(
         @InjectRepository(User)
         private userRepository: Repository<User>,
